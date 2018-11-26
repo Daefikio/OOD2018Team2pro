@@ -55,3 +55,10 @@ label {
     margin-right: auto;
     margin-left: auto;
 }
+
+.form-row
+{
+  align-content: center;
+  margin: auto;
+  padding: 0;
+}

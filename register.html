@@ -8,25 +8,7 @@
        <link rel="stylesheet" href="registergroup_styles.css"  />
     	  <script src="registergroup.js"></script>
         <title>Main Page</title>
-        <style>
-            .con {
-                background-color: lightblue;
-                height: 100vh;
-                text-align: center;
-            }
 
-            .jumbotron {
-                background-color: #f47c7c;
-                color: white;
-                text-align: center;
-                padding-top: 1rem;
-                padding-bottom: 1rem;
-            }
-
-            .display-4 {
-              font-size: 4vw;
-            }
-        </style>
   	</head>
   	<body class="container-fluid con">
       <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
@@ -88,6 +70,8 @@
               <div class="container-fluid2">
             <form id="form1" method="post" action="bouncer.php" >
   <div class="form-row">
+    <div class="col-md-2 mb-3">
+    </div>
     <div class="col-md-4 mb-3">
       <label>First name</label>
       <input type="text" class="fieldz" id="fname" name="fname"
@@ -104,6 +88,10 @@
         oninput="checkFilled(this.form);"	required="required" /><br />
         <p class="tip" id="tiplname">Enter your last name.</p>
     </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-2 mb-3">
+    </div>
     <div class="col-md-4 mb-3">
       <label>Email</label>
       <input type="text" class="fieldz" id="email" name="email"
@@ -112,8 +100,18 @@
         oninput="checkFilled(this.form);"	required="required" /><br />
         <p class="tip" id="tipemail">Enter your email.</p>
     </div>
+    <div class="col-md-4 mb-3">
+      <label>User Id</label>
+      <input type="text" class="fieldz" id="userId" name="userId"
+        onfocus="tipuserid.style.visibility = 'visible'"
+        onblur="tipuserid.style.visibility = 'hidden'"
+        oninput="checkFilled(this.form);"	required="required" /><br />
+        <p class="tip" id="tipuserid">Create a username.</p>
+    </div>
   </div>
   <div class="form-row">
+    <div class="col-md-2 mb-3">
+    </div>
     <div class="col-md-4 mb-3">
       <label>Password</label>
       <input type="password" class="fieldz" id="pwd" name="pwd"
@@ -130,6 +128,10 @@
         oninput="checkFilled(this.form);"	required="required" /><br />
         <p class="tip" id="tiprepwd">Re-enter your password.</p>
     </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-2 mb-3">
+    </div>
     <div class="col-md-4 mb-3">
       <label>Birthdate</label>
       <input type="date" class="fieldz" id="birthdate" name="birthdate"
@@ -139,8 +141,6 @@
         onchange="checkFilled(this.form);"	required="required" /><br />
         <p class="tip" id="tipbirthdate">Select your birthdate.</p>
     </div>
-  </div>
-  <div class="form-row">
     <div class="col-md-4 mb-3">
       <label>Address</label>
       <input type="text" class="fieldz" id="address" name="address" rows="3"
@@ -149,6 +149,10 @@
         onblur="tipaddress.style.visibility = 'hidden'"
         oninput="checkFilled(this.form);"	required="required" /><br />
         <p class="tip" id="tipaddress">Enter your home address.</p>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-2 mb-3">
     </div>
     <div class="col-md-4 mb-3">
       <label>Personal Phone</label>
@@ -170,7 +174,9 @@
     </div>
   </div>
   <div class="form-row">
-    <div class="col-md-3 mb-3">
+    <div class="col-md-2 mb-3">
+    </div>
+    <div class="col-md-4 mb-3">
       <label>City</label>
       <input type="text" class="fieldz" id="city" name="city"
         onfocus="tipcity.style.visibility = 'visible'"
@@ -178,7 +184,7 @@
         oninput="checkFilled(this.form);"	required="required" /><br />
         <p class="tip" id="tipcity">Enter your city of residence.</p>
     </div>
-    <div class="col-md-3 mb-3">
+    <div class="col-md-4 mb-3">
       <label>Province</label>
       <select class="fieldz" id="province" name="province"
         onfocus="tipprovince.style.visibility = 'visible'"
@@ -194,25 +200,29 @@
         </select><br />
         <p class="tip" id="tipprovince">Select your province of residence.</p>
     </div>
-    <div class="col-md-3 mb-3">
-      <label>Postal Code</label>
-      <input type="text" class="fieldz" id="postal" name="postal"
-        placeholder="ex) X9X 9X9"
-        onfocus="tippostal.style.visibility = 'visible'"
-        onblur="tippostal.style.visibility = 'hidden'"
-        oninput="checkFilled(this.form);"	required="required" /><br />
-        <p class="tip" id="tippostal">Enter your postal code.<br />Format: X9X 9X9</p>
+</div>
+<div class="form-row">
+  <div class="col-md-2 mb-3">
   </div>
-  <div class="col-md-3 mb-3">
-  <label>Country</label>
-  <select type="text" class="fieldz" id="country" name="country"
-    onfocus="tipcountry.style.visibility = 'visible'"
-    onblur="tipcountry.style.visibility = 'hidden'"
-    oninput="checkFilled(this.form);"	required="required" /><br />
-    <option value="">Select Country</option>
-    <option value="CAN">Canada</option>
-    </select><br />
-    <p class="tip" id="tipcountry">Select your country of residence.</p>
+  <div class="col-md-4 mb-3">
+    <label>Postal Code</label>
+    <input type="text" class="fieldz" id="postal" name="postal"
+      placeholder="ex) X9X 9X9"
+      onfocus="tippostal.style.visibility = 'visible'"
+      onblur="tippostal.style.visibility = 'hidden'"
+      oninput="checkFilled(this.form);"	required="required" /><br />
+      <p class="tip" id="tippostal">Enter your postal code.<br />Format: X9X 9X9</p>
+</div>
+<div class="col-md-4 mb-3">
+<label>Country</label>
+<select type="text" class="fieldz" id="country" name="country"
+  onfocus="tipcountry.style.visibility = 'visible'"
+  onblur="tipcountry.style.visibility = 'hidden'"
+  oninput="checkFilled(this.form);"	required="required" /><br />
+  <option value="">Select Country</option>
+  <option value="CAN">Canada</option>
+  </select><br />
+  <p class="tip" id="tipcountry">Select your country of residence.</p>
 </div>
 </div>
 

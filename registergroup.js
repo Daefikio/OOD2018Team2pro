@@ -22,18 +22,23 @@ function validate(mainform)
   }
   if (mainform.elements[3].value == "")
   {
+    alert("Please create a username.");
+    return false;
+  }
+  if (mainform.elements[4].value == "")
+  {
     alert("Please enter a password");
     return false;
   }
-  if (mainform.elements[4].value != mainform.elements[3].value)
+  if (mainform.elements[5].value != mainform.elements[4].value)
   {
     alert("Re-entered password does not match original password");
     return false;
   }
   //Validating that the individual registering is 18 years or older
   var today = new Date();
-  var birthDate = new Date(mainform.elements[5].value);
-  if (mainform.elements[5].value == "")
+  var birthDate = new Date(mainform.elements[6].value);
+  if (mainform.elements[6].value == "")
   {
     alert("Enter your birthdate");
     return false;
@@ -43,22 +48,22 @@ function validate(mainform)
     alert("Must be 18 years of age or older to register");
     return false;
   }
-  if (mainform.elements[6].value == "")
+  if (mainform.elements[7].value == "")
   {
     alert("Please enter the address of your residence");
     return false;
   }
-  if (mainform.elements[7].value == "")
+  if (mainform.elements[8].value == "")
   {
     alert("Please enter a phone number");
     return false;
   }
-  if (mainform.elements[9].value == "")
+  if (mainform.elements[10].value == "")
   {
     alert("Please enter your city of residence");
     return false;
   }
-  if (mainform.elements[10].value == "")
+  if (mainform.elements[11].value == "")
   {
     alert("Please select your province of residence");
     return false;
@@ -82,7 +87,7 @@ function validate(mainform)
     return false;
   }*/
 
-  if (mainform.elements[12].value == "")
+  if (mainform.elements[13].value == "")
   {
     alert("Please select your country of residence");
     return false;
@@ -94,7 +99,7 @@ function validate(mainform)
 valid data is entered*/
 function checkFilled(mainform)
 {
-  for (var i = 0; i < 13; i++)
+  for (var i = 0; i < 14; i++)
   {
     if (mainform.elements[i].value == "")
     {

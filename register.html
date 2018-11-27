@@ -153,21 +153,21 @@
                 </div>
                 <div class="col-md-4 mb-3">
                   <label>Personal Phone</label>
-                  <input type="phone" class="fieldz" id="phone" name="phone"
+                  <input type="phone" class="fieldz" id="CustPersonalPhone" name="CustPersonalPhone"
                     placeholder="ex) (XXX) XXX-XXXX"
-                    onfocus="tippersonalphone.style.visibility = 'visible'"
-                    onblur="tippersonalphone.style.visibility = 'hidden'"
+                    onfocus="tipCustPersonalPhone.style.visibility = 'visible'"
+                    onblur="tipCustPersonalPhone.style.visibility = 'hidden'"
                     oninput="checkFilled(this.form);"	required="required" /><br />
-                  <p class="tip" id="tippersonalphone">Enter your phone number.<br />(XXX) XXX-XXXX</p>
+                  <p class="tip" id="tipCustPersonalPhone">Enter your phone number.<br />(XXX) XXX-XXXX</p>
                 </div>
                 <div class="col-md-4 mb-3">
                   <label>Business Phone</label>
-                  <input type="phone" class="fieldz" id="phone" name="phone"
+                  <input type="phone" class="fieldz" id="CustBusPhone" name="CustBusPhone"
                     placeholder="ex) (XXX) XXX-XXXX"
-                    onfocus="tipbusinessphone.style.visibility = 'visible'"
-                    onblur="tipbusinessphone.style.visibility = 'hidden'"
+                    onfocus="tipCustBusPhone.style.visibility = 'visible'"
+                    onblur="tipCustBusPhone.style.visibility = 'hidden'"
                     oninput="checkFilled(this.form);" /><br />
-                  <p class="tip" id="tipbusinessphone">Enter your phone number.<br />(XXX) XXX-XXXX</p>
+                  <p class="tip" id="tipCustBusPhone">Enter your phone number.<br />(XXX) XXX-XXXX</p>
                 </div>
               </div>
               <div class="form-row">
@@ -175,17 +175,17 @@
                 </div>
                 <div class="col-md-4 mb-3">
                   <label>City</label>
-                  <input type="text" class="fieldz" id="city" name="city"
-                    onfocus="tipcity.style.visibility = 'visible'"
-                    onblur="tipcity.style.visibility = 'hidden'"
+                  <input type="text" class="fieldz" id="CustCity" name="CustCity"
+                    onfocus="tipCustCity.style.visibility = 'visible'"
+                    onblur="tipCustCity.style.visibility = 'hidden'"
                     oninput="checkFilled(this.form);"	required="required" /><br />
-                  <p class="tip" id="tipcity">Enter your city of residence.</p>
+                  <p class="tip" id="tipCustCity">Enter your city of residence.</p>
                 </div>
                 <div class="col-md-4 mb-3">
                   <label>Province</label>
-                  <select class="fieldz" id="province" name="province"
-                    onfocus="tipprovince.style.visibility = 'visible'"
-                    onblur="tipprovince.style.visibility = 'hidden'"
+                  <select class="fieldz" id="CustProvince" name="CustProvince"
+                    onfocus="tipCustProvince.style.visibility = 'visible'"
+                    onblur="tipCustProvince.style.visibility = 'hidden'"
                     onchange="checkFilled(this.form);" required="required" /><br />
                     <option value="">Select a province</option>
                     <option value="AB">Alberta</option>
@@ -195,7 +195,7 @@
                     <option value="ON">Ontario</option>
                     <option value="QC">Quebec</option>
                     </select><br />
-                  <p class="tip" id="tipprovince">Select your province of residence.</p>
+                  <p class="tip" id="tipCustProvince">Select your province of residence.</p>
                 </div>
             </div>
             <div class="form-row">
@@ -203,23 +203,23 @@
               </div>
               <div class="col-md-4 mb-3">
                 <label>Postal Code</label>
-                <input type="text" class="fieldz" id="postal" name="postal"
+                <input type="text" class="fieldz" id="CustPostalCode" name="CustPostalCode"
                   placeholder="ex) X9X 9X9"
-                  onfocus="tippostal.style.visibility = 'visible'"
-                  onblur="tippostal.style.visibility = 'hidden'"
+                  onfocus="tipCustPostalCode.style.visibility = 'visible'"
+                  onblur="tipCustPostalCode.style.visibility = 'hidden'"
                   oninput="checkFilled(this.form);"	required="required" /><br />
-                <p class="tip" id="tippostal">Enter your postal code.<br />Format: X9X 9X9</p>
+                <p class="tip" id="tipCustPostalCode">Enter your postal code.<br />Format: X9X 9X9</p>
               </div>
               <div class="col-md-4 mb-3">
                 <label>Country</label>
-                <select type="text" class="fieldz" id="country" name="country"
-                  onfocus="tipcountry.style.visibility = 'visible'"
-                  onblur="tipcountry.style.visibility = 'hidden'"
+                <select type="text" class="fieldz" id="CustCountry" name="CustCountry"
+                  onfocus="tipcCustCountry.style.visibility = 'visible'"
+                  onblur="tipCustCountry.style.visibility = 'hidden'"
                   oninput="checkFilled(this.form);"	required="required" /><br />
                   <option value="">Select Country</option>
                   <option value="CAN">Canada</option>
                   </select><br />
-                <p class="tip" id="tipcountry">Select your country of residence.</p>
+                <p class="tip" id="tipCustCountry">Select your country of residence.</p>
               </div>
             </div>
 

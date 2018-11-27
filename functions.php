@@ -12,7 +12,7 @@ database based on the *associative* array created in dataforfunction.php.*/
   {
     //Set the paramaters (access members through object getters)
     $firstName = $cust->getCustFirstName();
-    $lastName = $cust->getAgtMiddleInitial();
+    $lastName = $cust->getCustLastName();
     $emailAddress = $cust->getCustEmail();
     $userId = $cust->getCustUserId();
     $password  = $cust->getCustPassword();
@@ -26,9 +26,10 @@ database based on the *associative* array created in dataforfunction.php.*/
     $country= $cust->getCustCountry();
 
     //Creation of INSERT INTO statement
-    $sql = "INSERT INTO `agents`(`AgtFirstName`, `AgtMiddleInitial`,
-    `AgtLastName`, `AgtBusPhone`, `AgtEmail`, `AgtPosition`, `AgencyId`)
-    VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO `customers`(`CustFirstName`,  `CustLastName`,
+     `CustAddress`, `CustCity`, `CustProv`, `CustPostal`, `CustCountry`,
+      `CustHomePhone`, `CustBusPhone`, `CustEmail`, `UserId`)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     $dbh = mysqli_connect("localhost", "chad", "chad", "travelexperts");
     //Error messages to be presented if connection is unsuccessful
       if (!$dbh)
@@ -39,13 +40,14 @@ database based on the *associative* array created in dataforfunction.php.*/
       }
       //Preparing, binding, and executing the statement
       $stmt = mysqli_prepare($dbh, $sql);
-      mysqli_stmt_bind_param($stmt, "ssssssi", $firstName, $middleInitial,
-      $lastName, $busPhone, $emailAddress, $position, $agencyNumber);
+      mysqli_stmt_bind_param($stmt, "sssssssssss", $firstName, $lastName,
+      $address, $city, $province, $postalCode, $country, $personalPhone,
+      $busPhone, $emailAddress, $userId);
       $result = mysqli_stmt_execute($stmt);
       //Error messages to be presented if insert is unsuccessful
       if(!$result)
       {
-        print(mysqli_stmt_error($result));
+        print(mysqli_stmt_error($stmt));
         mysqli_close($dbh);
         return false;
       }

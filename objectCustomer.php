@@ -24,17 +24,17 @@ Code used to create an agent object which is an instance of the agent class.-->
     $CustCountry = $_REQUEST["CustCountry"]);
     /* If the form database contains valid data pass the
     array to insertagent() function */
-    if(insertagent($agt))
+    if(insertcustomer($cust))
     {
-      print("Agent added to the database");
+      print("Congratulations! You are now registered");
     }
     else
     {
-      print("Add agent failed, call tech support");
+      print("Registration failed, call tech support");
     }
   }
   else
   {
-    header("Location: addAgentPage.php");
+    header("Location: register.html");
   }
  ?>

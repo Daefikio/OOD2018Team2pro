@@ -65,7 +65,7 @@
           </div>
         <div class="container-fluid">
           <div class="container-fluid2">
-            <form id="form1" method="post" action="bouncer.php" >
+            <form id="form1" method="post" action="objectCustomer.php" >
               <div class="form-row">
                 <div class="col-md-2 mb-3">
                 </div>

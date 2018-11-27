@@ -33,6 +33,10 @@
       padding: 8px 0px 0px 0px;
     }
 
+    #button{
+      font-size: 3rem;
+    }
+
     #info{
       font-size: 60px;
     }
@@ -44,7 +48,6 @@
     .dropdown-menu{
        background-color: black;
     }
-
 
     #drop{
       color: white;
@@ -67,7 +70,7 @@
         <div class="container">
           <h1 class="masthead-heading mb-0">Caribbean Travel Package</h1>
           <h2 class="masthead-subheading mb-0">Relax by the sea</h2>
-          <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Book Now</a>
+          <a id="button" href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Book Now</a>
         </div>
       </div>
 

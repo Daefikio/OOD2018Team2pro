@@ -5,7 +5,7 @@ the website.-->
 <!--NavBar-->
 <nav class="navbar navbar-expand-lg navbar navbar-dark background1">
   <a class="navbar-brand" href="#">
-  <img src="logo.jpeg" width="30px" height="30px" class="d-inline-block align-top"
+  <img id="logo" src="logo.jpeg" width="30px" height="30px" class="d-inline-block align-top"
   alt="">Travel Experts</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,9 +14,6 @@ the website.-->
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="landingPage.php">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">About Us</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#">Travel Packages</a>
@@ -34,5 +31,13 @@ the website.-->
         </div>
       </li>
     </ul>
+    <div class="form-inline my-2 my-lg-0">
+      <style>
+      .nav-link{
+        color: white;
+      }
+      </style>
+      <a class="nav-link" href="#">About Us</a>
+    </div>
   </div>
-  </nav>
+</nav>

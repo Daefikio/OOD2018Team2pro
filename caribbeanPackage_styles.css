@@ -1,0 +1,45 @@
+/*Author: Eugenia Chu, Date: November 20, 2018,
+PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&Javascript).
+CSS page for the detailed package demo page.*/
+
+
+.navbar {
+margin-bottom: 0;
+border-radius: 0;
+background-color: black;
+font-size: 19px;
+color:white;
+height: 65px;
+padding: 8px 0px 0px 0px;
+}
+
+#logo {
+margin-right: 6%;
+margin-top: -4%;
+margin-bottom: 2%;
+}
+
+#button{
+font-size: 3rem;
+}
+
+#info{
+font-size: 60px;
+}
+
+#more{
+font-size: 20px;
+}
+
+#drop{
+color: white;
+font-size: 18px;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  font-size: 15px;
+
+}

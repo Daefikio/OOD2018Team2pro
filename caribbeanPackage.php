@@ -11,7 +11,9 @@
     <title>Caribbean Package</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="caribbeanPackage_styles.css"
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -22,46 +24,12 @@
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
 
-    <style>
-      .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-      background-color: black;
-      font-size: 19px;
-      color:white;
-      height: 65px;
-      padding: 8px 0px 0px 0px;
-    }
-
-    #button{
-      font-size: 3rem;
-    }
-
-    #info{
-      font-size: 60px;
-    }
-
-    #more{
-      font-size: 20px;
-    }
-    
-    .dropdown-menu{
-       background-color: black;
-    }
-
-    #drop{
-      color: white;
-      font-size: 18px;
-      }
-
-    </style>
-
   </head>
 
   <body>
 
     <!-- Navigation -->
-<?php include "navBar.php"; ?>
+<?php include "navBar2.php"; ?>
 
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -131,12 +99,9 @@
     </section>
 
     <!-- Footer -->
-    <footer class="py-5 bg-black">
-      <div class="container">
-        <p class="m-0 text-center text-white small">Travel Experts &copy; 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    <?php
+      include("footer2.php");
+    ?>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

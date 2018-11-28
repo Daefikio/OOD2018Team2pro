@@ -1,0 +1,57 @@
+/*Author: Eugenia Chu, Date: November 20, 2018,
+PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&Javascript).
+CSS page for the landing page.*/
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: black;
+  font-size: 19px;
+  color:white;
+  height: 65px;
+  padding: 8px 0px 0px 0px;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+  max-height: 700px;
+}
+
+.h3{
+font-size: 30px;
+}
+
+#footer{
+background-color: black;
+color: white;
+}
+
+.dropdown-menu{
+background-color: black;
+}
+
+
+#drop{
+color: white;
+font-size: 15px;
+}
+
+.hoverable:hover{
+box-shadow:5px 10px 5px grey;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
+}
+}

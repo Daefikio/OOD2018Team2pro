@@ -8,7 +8,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#"><img src="img/mountainlogo.jpg" alt="Travel Experts" width="30" height="30" alt=""></a>
     </div>
@@ -17,7 +17,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="landingPage.php">Home</a></li>
         <li><a href="#">Travel Packages</a></li>
-        <li><a href="#">Register</a></li>
+        <li><a href="customerRegisterPage.php">Register</a></li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

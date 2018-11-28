@@ -42,14 +42,30 @@ CSS page for the register page.*/
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.background1 {
+  background-color: black;
+}
+
 label {
   font-size: 2.5vh;
 }
 
+.navbar-brand {
+  padding-top: 0;
+}
+img {
+  margin-right: 6%;
+
+}
 .container-fluid {
   background-color: lightblue;
+  padding-right: 0;
+  padding-left: 0;
 }
 
+.jumbotron {
+  border-radius: 0;
+}
 .container-fluid2 {
     width: 90%;
     padding-right: 15px;
@@ -63,4 +79,14 @@ label {
   align-content: center;
   margin: auto;
   padding: 0;
+}
+
+.container-fluid-footer {
+  padding-top: 3%;
+}
+#footer {
+  background-color: black;
+  color: white;
+  padding: 25px;
+
 }

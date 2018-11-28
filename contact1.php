@@ -8,9 +8,9 @@ Code for contacts page. Contacts page is split into 2 files; contacts1.php, cont
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
     <title>Contact1</title>
     <style>
         body{
@@ -30,24 +30,32 @@ Code for contacts page. Contacts page is split into 2 files; contacts1.php, cont
         }
 
         #padding{
-          margin: 20px 0px 5px 0px;
+          margin: 50px 0px 5px 0px;
         }
 
         #hero{
-          width:100%;
-          margin: 0px;
+          width: 101.6%;
+          margin: -15px;
         }
-       /*.border{
-           border: 5px white solid;
-           padding:10px 15px;
-           margin: 20px 10px;
+        .background1 {
+          background-color: black;
+        }
+        #logo {
+          margin-right: 6%;
+        }
 
-       }*/
+        #footer {
+          background-color: black;
+          color: white;
+          padding: 25px;
+          width: 171.5%;
+          margin: 5px 0px 0px -397px;
+        }
     </style>
 </head>
 <body>
 <?php
-      include(navBar2.php);
+      include("navBar2.php");
 ?>
 <!-- jumbotron container -->
 
@@ -58,7 +66,7 @@ Code for contacts page. Contacts page is split into 2 files; contacts1.php, cont
 </div>
 
 <?php
-$mysqli = new mysqli("localhost", "james", "password", "travelexperts");
+$mysqli = new mysqli("localhost", "chad", "chad", "travelexperts");
 
 /* check connection */
 
@@ -70,12 +78,12 @@ $query = "SELECT AgtFirstName, AgtLastName, AgtPosition FROM agents  WHERE Agenc
 
 if ($result = $mysqli->query($query)) {
 
-    // /* fetch associative array */  
+    // /* fetch associative array */
 ?>
 <div class="container" id = "cardcon">
     <div class="row">
     <?php
-    // $row = $result->fetch_assoc(); 
+    // $row = $result->fetch_assoc();
     for($i=0; $i< mysqli_num_rows($result); $i++){
         // var_dump($result->fecth_assoc);
         while ($row = $result->fetch_assoc()) {
@@ -96,7 +104,13 @@ if ($result = $mysqli->query($query)) {
 }
 /* close connection */
 $mysqli->close();
-include(footer2.php);
+
 ?>
+</div>
 </body>
+<footer>
+  <?php
+    include("footer2.php");
+   ?>
+</footer>
 </html>

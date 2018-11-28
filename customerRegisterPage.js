@@ -18,7 +18,7 @@ function validate(mainform)
   }
   //Regular expression used to validate email input
   var reg = /^[a-zA-Z][a-zA-Z0-9.!#$%&'*+\/=?^_`{-]+@([a-zA-Z][a-zA-Z0-9-]+\.)+[a-zA-Z]{2,6}$/;
-  if (!reg.test(mainform.email.value))
+  if (!reg.test(mainform.elements[2].value))
   {
     alert("invalid email address");
     return false;
@@ -97,7 +97,6 @@ function validate(mainform)
   }
   return confirm("Continue submitting?");
 }
-
 /*Function used to change the background color of the input field when
 valid data is entered*/
 function checkFilled(mainform)

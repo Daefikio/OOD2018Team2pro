@@ -20,7 +20,7 @@ data for registration.-->
       ?>
 <!-- Customer Registration form where data is input-->
         <div class="container-fluid con">
-          <div class="jumbotron" >
+          <div class="jumbotron display-1" >
             <h1 class="display-4">Register Now</h1>
           </div>
           <div class="container-fluid">

@@ -25,9 +25,9 @@ the website.-->
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Us</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Calgary</a>
+          <a class="dropdown-item" href="contactPageCalgary.php">Calgary</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Okotoks</a>
+          <a class="dropdown-item" href="contactPageOkotoks.php">Okotoks</a>
         </div>
       </li>
     </ul>

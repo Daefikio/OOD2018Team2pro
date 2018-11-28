@@ -1,6 +1,6 @@
 <!--Author: Mitchell (Chad) Dundas Smith, Date: November 22, 2018,
 PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&JavaScript).
-Code for customer registration age interface that allows the customer to input
+Code for customer registration page interface that allows the customer to input
 data for registration.-->
 <!DOCTYPE html>
 <html lang="en">

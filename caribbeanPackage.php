@@ -13,7 +13,8 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="caribbeanPackage_styles.css"
+    <link rel="stylesheet" href="caribbeanPackage_styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -54,7 +55,7 @@
           </div>
           <div class="col-lg-6 order-lg-1">
             <div class="p-5">
-              <h2 id="info" class="display-4">Watch the sunset...</h2>
+              <h2 id="info" class="display-4">Watch the sunset</h2>
               <p id ="more">This package includes a five star luxury hotel that has direct access to the beach so you can sit and enjoy the sunset.</p>
             </div>
           </div>
@@ -72,7 +73,7 @@
           </div>
           <div class="col-lg-6">
             <div class="p-5">
-              <h2 id="info" class="display-4">Spaaaaaaa~</h2>
+              <h2 id="info" class="display-4">Enjoy a spa</h2>
               <p id="more">Enjoy a soothing massage after a long day of exploring.</p>
             </div>
           </div>
@@ -90,7 +91,7 @@
           </div>
           <div class="col-lg-6 order-lg-1">
             <div class="p-5">
-              <h2 id="info" class="display-4">Dine</h2>
+              <h2 id="info" class="display-4">Fine Dining</h2>
               <p id ="more">Choose between multiple different resturants that offer amazing views!</p>
             </div>
           </div>

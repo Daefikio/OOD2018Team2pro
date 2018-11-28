@@ -31,6 +31,11 @@ font-size: 60px;
 font-size: 20px;
 }
 
+#aboutUs {
+  margin-top: 5px!important;
+  float: right;
+}
+
 #drop{
 color: white;
 font-size: 18px;
@@ -41,5 +46,8 @@ font-size: 18px;
   color: white;
   padding: 25px;
   font-size: 15px;
+}
 
+h1, h2 {
+  font-family: 'Comfortaa', cursive!important;
 }

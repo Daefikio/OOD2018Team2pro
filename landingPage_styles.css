@@ -37,6 +37,10 @@ CSS page for the landing page.*/
 font-size: 30px;
 }
 
+#aboutUs {
+  margin-top: 5px!important;
+  float: right;
+}
 
 #drop{
 color: white;

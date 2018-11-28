@@ -10,6 +10,7 @@ data for registration.-->
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
        <link rel="stylesheet" href="customerRegisterPage_styles.css"  />
+       <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
   	  <script src="customerRegisterPage.js"></script>
       <title>Registration Page</title>
   	</head>

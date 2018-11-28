@@ -31,11 +31,11 @@ the website.-->
         </div>
       </li>
     </ul>
-    <div class="form-inline my-2 my-lg-0">
+    <div id="aboutUs" class="form-inline my-2 my-lg-0">
       <style>
       .nav-link{
         color: white;
-      }
+      }>?
       </style>
       <a class="nav-link" href="#">About Us</a>
     </div>

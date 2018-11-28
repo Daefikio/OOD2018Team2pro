@@ -1,5 +1,8 @@
-/*Function used for validation of specific input fields to ensure the form
- is valid before submission*/
+/*Author: Mitchell (Chad) Dundas Smith, Date: November 22, 2018,
+PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&Javascript).
+
+Function used for validation of specific input fields to ensure the form
+is valid before submission*/
 function validate(mainform)
 {
   var myform = document.getElementById("form1");

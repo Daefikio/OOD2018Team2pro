@@ -1,5 +1,5 @@
-<!--Author: Mitchell (Chad) Dundas Smith, Date: November 24, 2018,
-CPRG-210-OSD-Web Application Devlopment, Assignment: Travel Website (Individual)
+<!--Author: Mitchell (Chad) Dundas Smith, Date: November 22, 2018,
+PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 2 (PHP).
 Code used to create an agent object which is an instance of the agent class.-->
 <?php
   include("insertCustomer.php");
@@ -26,7 +26,7 @@ Code used to create an agent object which is an instance of the agent class.-->
     array to insertagent() function */
     if(insertcustomer($cust))
     {
-      print("Congratulations! You are now registered");
+      header("Location: successfulCustomerRegistrationPage.php");
     }
     else
     {

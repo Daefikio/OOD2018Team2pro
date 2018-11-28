@@ -1,3 +1,7 @@
+<!--Author: Mitchell (Chad) Dundas Smith, Date: November 22, 2018,
+PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&JavaScript).
+Code for customer registration age interface that allows the customer to input
+data for registration.-->
 <!DOCTYPE html>
 <html lang="en">
   	<head>
@@ -59,6 +63,7 @@
 </div>
 </nav>
 <!---------------------------------------------------------------------------------------------->
+<!--Form for customer registration-->
         <div class="container-fluid con">
           <div class="jumbotron" >
             <h1 class="display-4">Register Now</h1>
@@ -230,6 +235,7 @@
                 <div class="invalid-feedback">You must agree before submitting.</div>
               </div>
             </div>
+<!--Submit and Reset buttons to submit or reset input data-->
             <input class="btn btn-primary" value="Register Now" type="submit" onclick="return validate(this.form);" />
             <input class="btn btn-secondary" type="reset"
              onclick="return resetForm(this.form);" />

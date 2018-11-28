@@ -1,5 +1,5 @@
-<!--Author: Mitchell (Chad) Dundas Smith, Date: November 24, 2018,
-CPRG-210-OSD-Web Application Devlopment, Assignment: Travel Website (Individual)
+<!--Author: Mitchell (Chad) Dundas Smith, Date: November 22, 2018,
+PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 2 (PHP).
 File  creates an Agent class to be used later to instantiate agent object-->
 <?php
   class Customer

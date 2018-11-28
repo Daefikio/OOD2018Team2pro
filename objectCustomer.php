@@ -2,7 +2,7 @@
 CPRG-210-OSD-Web Application Devlopment, Assignment: Travel Website (Individual)
 Code used to create an agent object which is an instance of the agent class.-->
 <?php
-  include("functions.php");
+  include("insertCustomer.php");
   include_once("classCustomer.php");
   //if(isset($_REQUEST["AgtFirstName"]))
   if(isset($_REQUEST["CustFirstName"]))
@@ -30,11 +30,11 @@ Code used to create an agent object which is an instance of the agent class.-->
     }
     else
     {
-      print("Registration failed, call tech support");
+      print("Registration failed, try again or call an agency");
     }
   }
   else
   {
-    header("Location: register.html");
+    header("Location: customerRegisterPage.php");
   }
  ?>

@@ -28,7 +28,7 @@ database based on the *associative* array created in dataforfunction.php.*/
     //Creation of INSERT INTO statement
     $sql = "INSERT INTO `customers`(`CustFirstName`,  `CustLastName`,
      `CustAddress`, `CustCity`, `CustProv`, `CustPostal`, `CustCountry`,
-      `CustHomePhone`, `CustBusPhone`, `CustEmail`, `UserId`)
+      `CustHomePhone`, `CustBusPhone`, `CustEmail`, `UserId`, 'CustPassword')
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     $dbh = mysqli_connect("localhost", "chad", "chad", "travelexperts");
     //Error messages to be presented if connection is unsuccessful

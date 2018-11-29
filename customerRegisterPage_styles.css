@@ -2,6 +2,11 @@
 PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&Javascript).
 CSS page for the register page.*/
 
+.navbar-collapse {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.21em;
+}
+
 .tip {
   visibility: hidden;
 
@@ -16,7 +21,7 @@ CSS page for the register page.*/
 }
 
 .jumbotron {
-    background-color: #f47c7c;
+    background: linear-gradient(0deg, #ff6a00 0, #ee0979 100%);
     color: white;
     text-align: center;
     padding-top: 1rem;

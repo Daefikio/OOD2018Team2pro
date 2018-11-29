@@ -12,7 +12,7 @@ function insertproject($cust)
 			print("Connection Error: " . mysqli_connect_errno() . ":" . mysqli_connect_error() . "<br />");
 			exit();
 		}
-		
+
 		$stmt = mysqli_prepare($dbh, $sql);
 		mysqli_stmt_bind_param($stmt, "sssss", $cust["Fname"], $cust["Lname"], $cust["emailAddress"], $cust["phoneNumber"], $cust["message"]);
 		$result = mysqli_stmt_execute($stmt);
@@ -28,7 +28,7 @@ function insertproject($cust)
 	    {
 	    	if (insertproject($_REQUEST))
 	    	{
-	    		print("Data inserted sucessfully");
+					header("Location:agentDemo.php");
 	    	}
 	    	else
 	    	{
@@ -37,6 +37,6 @@ function insertproject($cust)
 	    }
 	    else
 	    {
-	    	header("project.php");
+	    	header("Location: agentDemo.php");
         }
 ?>

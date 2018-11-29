@@ -10,7 +10,15 @@ CSS page for the landing page.*/
   font-size: 19px;
   color:white;
   height: 65px;
-  padding: 8px 0px 0px 0px;
+  padding: 2px 2px 2px 0.15%;
+}
+
+.navbar-nav>li {
+  padding-left: 0.7rem;
+}
+
+.navbar-brand {
+  margin-right: -1%;
 }
 
 #logo {

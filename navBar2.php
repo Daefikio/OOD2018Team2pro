@@ -3,6 +3,11 @@ PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 & 2.
 Code for navigation bar interface that allows the customer to navigate
 the website.-->
 <!--NavBar-->
+<style>
+  .navbar-collapse {
+    font-family: Helvetica Neve, Helvetica, Arial, sans-serif;
+  }
+</style>
 <nav class="navbar navbar-expand-lg navbar navbar-dark background1">
   <a class="navbar-brand" href="#">
   <img id="logo" src="logo.jpeg" width="30px" height="30px" class="d-inline-block align-top"

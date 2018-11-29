@@ -54,7 +54,7 @@ data for registration.-->
                               <div class="card-body">
                                 <h4 class="card-title"><?php print($row["AgtFirstName"] . " " . $row["AgtLastName"])?></h4>
                                 <h4><?php print("Title: " . $row["AgtPosition"])?></h4>
-                                <a href="#" class="btn btn-secondary btn-md">View Profile</a>
+                                <a href="agentDemo.php class="btn btn-secondary btn-md">View Profile</a>
                               </div>
                             </div>
                           </div>

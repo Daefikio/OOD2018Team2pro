@@ -1,0 +1,58 @@
+
+#form2{
+    font-family:'Lora';
+    font-size: 18px;
+}
+
+.tags{
+    font-family:'Lora';
+    font-size: 25px;
+}
+
+#container1{
+    /*position: relative;*/
+    bottom:0;
+    margin:10px 0px 0px 10px ;
+    max-width:420px;
+    min-width:220px;
+    float: left;
+
+    height:auto;
+    width: 30%;
+    padding: 18px;
+    background-color:white;
+    border-radius: 8px;
+}
+
+#container2{
+    /*position: relative;*/
+    bottom:0;
+    margin:10px 0px 0px 10px ;
+    max-width:420px;
+    min-width:220px;
+    float: right;
+
+    height:auto;
+    width: 30%;
+    padding: 18px;
+    background-color:white;
+    border-radius: 8px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 5px;
+    margin: 3px 0 5px 0;
+    border: none;
+    background: rgb(197, 196, 196);
+  }
+
+  #message{
+    width: 100%;
+    padding: 5px;
+    margin: 3px 0 5px 0;
+  }
+
+  #footer{
+      margin: 800px 0px 0px 0px;
+  }

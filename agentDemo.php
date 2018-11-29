@@ -33,18 +33,18 @@ data for registration.-->
         <!--Chad's Form-->
           <div id="container2">
               <h2>Connect with Agent</h2>
-              <form id="form2" method="post" action="bouncer.php">
+              <form id="form2" method="post" action="contactfunction.php">
                     <label class="tags">First Name:</label>
-                    <input type="text" name="custInqFName" required="required" id="custInqFName" />
+                    <input type="text" name="custInqFName" required="required" id="Fname" />
                     <br />
                     <label class="tags">Last Name:</label>
-                    <input type="text" name="custInqLName" required="required" id="custInqLName" />
+                    <input type="text" name="custInqLName" required="required" id="Lname" />
                     <br />
                     <label class="tags">Email Address:</label>
-                    <input type="text" name="custInqEmail" required="required" id="custInqEmail" />
+                    <input type="text" name="custInqEmail" required="required" id="emailAddress" />
                     <br />
                     <label class="tags">Phone Number:</label>
-                    <input type="text" name="custIngPhone" required="required" id="custInqPhone" />
+                    <input type="text" name="custIngPhone" required="required" id="phoneNumber" />
                     <br />
                     <label class="tags">Message:</label><br />
                     <textarea name="message" required="required" id="message" rows="5"></textarea>

@@ -20,9 +20,14 @@ the website.-->
       <li class="nav-item active">
         <a class="nav-link" href="landingPage.php">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Travel Packages</a>
-      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel Packages</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="contactPageCalgary.php">Casual</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="contactPageOkotoks.php">Corporate</a>
+        </div>
       <li class="nav-item active">
         <a class="nav-link" href="customerRegisterPage.php">Register</a>
       </li>

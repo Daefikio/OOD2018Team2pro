@@ -50,7 +50,7 @@ data for registration.-->
                       ?>
                       <div id ="padding" class="col-md-4">
                           <div class="card text-white bg-primary">
-                              <img class="card-img-top" src="einstein.png" alt="Card image cap">
+                              <img class="card-img-top" src="zoolander2.jpeg" alt="Card image cap">
                               <div class="card-body">
                                 <h4 class="card-title"><?php print($row["AgtFirstName"] . " " . $row["AgtLastName"])?></h4>
                                 <h4><?php print("Title: " . $row["AgtPosition"])?></h4>

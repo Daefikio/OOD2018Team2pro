@@ -97,3 +97,43 @@ label {
 #padding{
   margin: 50px 0px 5px 0px;
 }
+
+#container1{
+    background-color:white;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#container2{
+    background-color:white;
+}
+
+#message{
+  width: 50%;
+}
+
+#formLabel{
+  padding: 2%;
+}
+
+#sendMessage{
+  margin-bottom: 1%;
+  margin-top: 0.5%;
+}
+
+.agtInfo{
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.profilePic{
+    width: 350px;
+    height:auto;
+    float: left;
+    padding: 15px;
+}
+
+#team {
+  border-radius: 40%;
+}

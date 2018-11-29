@@ -117,10 +117,10 @@ CSS page for the detailed package demo page.-->
               <div id="travelinfo" class="container">
                 <h2 id="info" class="display-4">Travel Around Polynesia</h2>
                 <p id="more">Polynesian Paradise 8 Day All Inclusive Hawaiian Vacation <br /><br />
-              2019-12-12 &nbsp&nbsp to &nbsp&nbsp
+              Duration: 2019-12-12 &nbsp&nbsp to &nbsp&nbsp
               2019-12-20
               </p>
-                <p id="more" class="price">Price: $3000</p>
+                <p id="more" class="price">Price: $3000.00 CAN</p>
                 <a id="more" href="#openModal1">Book Now</a>
 
                 <div id="openModal1" class="modalDialog">
@@ -157,10 +157,10 @@ CSS page for the detailed package demo page.-->
               <div id="travelinfo" class="container">
                 <h2 id="info" class="display-4">Travel Around Asia</h2>
                 <p id="more">Asian Expedition Airfaire, Hotel and Eco Tour. <br /><br />
-              2019-12-12 &nbsp&nbsp to &nbsp&nbsp
+              Duration: 2019-12-12 &nbsp&nbsp to &nbsp&nbsp
               2019-12-20
               </p>
-                <p id="more" class="price">Price: $3000</p>
+                <p id="more" class="price">Price: $3000.00 CAN</p>
                 <a id="more" href="#openModal1">Book Now</a>
 
                 <div id="openModal1" class="modalDialog">
@@ -198,10 +198,10 @@ CSS page for the detailed package demo page.-->
           <div id="travelinfo" class="container">
             <h2 id="info" class="display-4">Set sail around the Caribean</h2>
             <p id="more">Caribbean New Year Cruise the Caribbean & Celebrate the New Year <br /><br />
-          2019-12-25 &nbsp&nbsp to &nbsp&nbsp
+          Duration: 2019-12-25 &nbsp&nbsp to &nbsp&nbsp
           2019-01-04
           </p>
-            <p id="more" class="price">Price: $4800</p>
+            <p id="more" class="price">Price: $4800.00 CAN</p>
             <a id="more" href="#openModal1">Book Now</a>
 
             <div id="openModal1" class="modalDialog">
@@ -238,10 +238,10 @@ CSS page for the detailed package demo page.-->
           <div id="travelinfo" class="container">
             <h2 id="info" class="display-4">Vist Europe</h2>
             <p id="more">Euro Tour with Rail Pass and Travel Insurance<br /><br />
-          2019-11-01 &nbsp&nbsp to &nbsp&nbsp
+          Duration: 2019-11-01 &nbsp&nbsp to &nbsp&nbsp
           2019-11-14
           </p>
-            <p id="more" class="price">Price: $3000</p>
+            <p id="more" class="price">Price: $3000.00 CAN</p>
             <a id="more" href="#openModal1">Book Now</a>
 
             <div id="openModal1" class="modalDialog">
@@ -251,7 +251,7 @@ CSS page for the detailed package demo page.-->
                 <form>
                   <input type="text" name="AccountName" value="Account Name">
                   <input type="text" name="Password" value="Password"> <br>
-                  <input type="submit" value="Submit"><br>
+                  <input type="" value="Submit"><br>
                   <a href="customerRegisterPage.php" class="button">Register</a>
                   </form>
             </div>

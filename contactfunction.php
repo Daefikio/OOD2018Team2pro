@@ -28,7 +28,7 @@ function insertproject($cust)
 	    {
 	    	if (insertproject($_REQUEST))
 	    	{
-					header("Location:agentDemo.php");
+					header("Location:agentDemo1.php");
 	    	}
 	    	else
 	    	{
@@ -37,6 +37,6 @@ function insertproject($cust)
 	    }
 	    else
 	    {
-	    	header("Location: agentDemo.php");
+	    	header("Location: agentDemo1.php");
         }
 ?>

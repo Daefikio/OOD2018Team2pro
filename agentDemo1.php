@@ -11,7 +11,7 @@ data for registration.-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
        <link rel="stylesheet" href="customerRegisterPage_styles.css"  />
        <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-  	  <script src="customerRegisterPage.js"></script>
+  	  <script src="agentContactForm.js"></script>
       <title>Agent Bio</title>
   	</head>
   	<body class="container-fluid con">

@@ -22,12 +22,13 @@ successfully registered.-->
           <div class="jumbotron" >
             <h1 class="display-4">Congratulations! You have successfully registered.</h1>
           </div>
-        <input class="btn btn-primary" value="Browse Packages" type="submit" onclick="location.href='http://google.com';" />
+        <input id="browsepackages" class="btn btn-primary" value="Browse Packages" type="submit" onclick="location.href='travelpackages.php';" />
       </div>
-      <?php
-        include("footer2.php");
-       ?>
   	</body>
+    </br>
+    <?php
+      include("footer2.php");
+     ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>

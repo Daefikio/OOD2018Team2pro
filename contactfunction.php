@@ -6,7 +6,7 @@ Code for message agent form that can be submitted by a customer.-->
 function insertproject($cust)
 	{
 		$sql = "INSERT INTO `profile_contact`(`Fname`, `Lname`, `emailAddress`, `phoneNumber`, `message`) VALUES  (?,?,?,?,?)";
-        $dbh = mysqli_connect("localhost", "james", "password", "travelexperts");
+        $dbh = mysqli_connect("localhost", "chad", "chad", "travelexperts");
 		if (!$dbh)
 		{
 			print("Connection Error: " . mysqli_connect_errno() . ":" . mysqli_connect_error() . "<br />");

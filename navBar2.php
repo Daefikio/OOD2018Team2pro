@@ -5,7 +5,7 @@ the website.-->
 <!--NavBar-->
 <style>
   .navbar-collapse {
-    font-family: Helvetica Neve, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
   }
 </style>
 <nav class="navbar navbar-expand-lg navbar navbar-dark background1">
@@ -24,9 +24,9 @@ the website.-->
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel Packages</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="contactPageCalgary.php">Casual</a>
+          <a class="dropdown-item" href="travelpackages.php">Casual</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="contactPageOkotoks.php">Corporate</a>
+          <a class="dropdown-item" href="#">Corporate</a>
         </div>
       <li class="nav-item active">
         <a class="nav-link" href="customerRegisterPage.php">Register</a>
@@ -47,7 +47,7 @@ the website.-->
         color: white;
       }>?
       </style>
-      <a class="nav-link" href="#">About Us</a>
+      <a class="nav-link" href="aboutUs.php">About Us</a>
     </div>
   </div>
 </nav>

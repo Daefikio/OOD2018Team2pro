@@ -146,7 +146,7 @@ $mysqli->close();
 <!-- Dont move the divs it gets messy-->
 <div class="card">
 <img class="img-fluid rounded-circle" img src="img/relax.jpg" alt="Avatar" style="width:50%">
-<div class="container">
+<div id="travelinfo" class="container">
   <h4><b>Travel around Polynesian</b></h4>
   <p>Polynesian Paradise 8 Day All Inclusive Hawaiian Vacation
 2019-12-12

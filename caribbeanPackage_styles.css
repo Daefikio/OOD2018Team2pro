@@ -2,7 +2,6 @@
 PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&Javascript).
 CSS page for the detailed package demo page.*/
 
-
 .navbar {
 margin-bottom: 0;
 border-radius: 0;
@@ -54,4 +53,8 @@ font-size: 18px;
 
 h1, h2 {
   font-family: 'Comfortaa', cursive!important;
+}
+
+.card{
+  margin: 5%;
 }

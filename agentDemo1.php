@@ -26,7 +26,7 @@ data for registration.-->
           <div class="container-fluid">
             <div class="container-fluid2">
               <div id="container1">
-                <img class="profilePic" src="zoolander1s.png" alt="AgentPhoto" >
+                <img class="profilePic" src="zoolander1.png" alt="AgentPhoto" >
                 <p class="agtInfo">Hello, my name is Chad and I am a Junior Agent at Travel Experts. My favorite thing to do is to make travel packages and customize CSS stylesheets. When I am not making travel website and packages, I am decorating cakes at my grandmother's house. Now, before you ask, I am not angry. I am just tired from coding and debuggin all of my programs. Messy code does not impress me, and my mission objective is to spend as much time as I can playing around in bouncy castle. <br /> My favorite place to travel is to France to see the feline and friends circus. I highly recommend it. My favorite food is responsibility sourced salmon from fancy feast. The quickest way to my heart is to organize code in a KISS (Keep It Simple Sweetie) way.
                 </p>
               </div>

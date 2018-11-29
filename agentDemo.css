@@ -12,13 +12,13 @@
 #container1{
     /*position: relative;*/
     bottom:0;
-    margin:10px 0px 0px 10px ;
-    max-width:420px;
-    min-width:220px;
+    margin:35px 0px 0px 130px ;
+    max-width:920px;
+    min-width:550px;
     float: left;
 
     height:auto;
-    width: 30%;
+    width: 43%;
     padding: 18px;
     background-color:white;
     border-radius: 8px;
@@ -27,9 +27,9 @@
 #container2{
     /*position: relative;*/
     bottom:0;
-    margin:10px 0px 0px 10px ;
+    margin:35px 110px 0px 10px ;
     max-width:420px;
-    min-width:220px;
+    min-width:320px;
     float: right;
 
     height:auto;
@@ -55,4 +55,17 @@ input[type=text]{
 
   #footer{
       margin: 800px 0px 0px 0px;
+  }
+
+  .profilePic{
+      width: 350px;
+      height:auto;
+      float: left;
+      padding: 15px;
+  }
+
+  .agtInfo{
+      font-size: 20px;
+      padding: 10px;
+      text-align: justify;
   }

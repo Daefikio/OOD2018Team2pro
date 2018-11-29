@@ -15,7 +15,7 @@ Code for message agent form that can be submitted by a customer.-->
 			<aside class="contact-form">
 				<div class="box">
 					<h2>Connect with Agent</h2>
-					<form id="form2" method="post" action="bouncer.php">
+					<form id="form2" method="post" action="contactfunction.php">
 							<div class="col-md-4 mb-3">
 								<label>First Name:</label>
 									<input type="text" name="custInqFName" required="required" id="custInqFName" />

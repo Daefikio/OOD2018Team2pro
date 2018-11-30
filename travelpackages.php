@@ -130,8 +130,9 @@ CSS page for the detailed package demo page.-->
                     <form>
                       <input type="text" name="AccountName" value="Account Name">
                       <input type="text" name="Password" value="Password"> <br>
-                      <input type="submit" value="Submit"><br>
-                      <a href="customerRegisterPage.php" class="button">Register</a>
+                      <input type="submit" value="Submit"></br></br>
+                      <p>New Customer?</p>
+                      <a href="customerRegisterPage.php" class="button">Register Here</a>
                       </form>
                 </div>
 
@@ -170,8 +171,9 @@ CSS page for the detailed package demo page.-->
                     <form>
                       <input type="text" name="AccountName" value="Account Name">
                       <input type="text" name="Password" value="Password"> <br>
-                      <input type="submit" value="Submit"><br>
-                      <a href="customerRegisterPage.php" class="button">Register</a>
+                      <input type="submit" value="Submit"></br></br>
+                      <p>New Customer?</p>
+                      <a href="customerRegisterPage.php" class="button">Register Here</a>
                       </form>
                 </div>
 
@@ -211,8 +213,9 @@ CSS page for the detailed package demo page.-->
                 <form>
                   <input type="text" name="AccountName" value="Account Name">
                   <input type="text" name="Password" value="Password"> <br>
-                  <input type="submit" value="Submit"><br>
-                  <a href="customerRegisterPage.php" class="button">Register</a>
+                  <input type="submit" value="Submit"></br></br>
+                  <p>New Customer?</p>
+                  <a href="customerRegisterPage.php" class="button">Register Here</a>
                   </form>
             </div>
 
@@ -251,8 +254,9 @@ CSS page for the detailed package demo page.-->
                 <form>
                   <input type="text" name="AccountName" value="Account Name">
                   <input type="text" name="Password" value="Password"> <br>
-                  <input type="" value="Submit"><br>
-                  <a href="customerRegisterPage.php" class="button">Register</a>
+                  <input type="submit" value="Submit"></br></br>
+                  <p>New Customer?</p>
+                  <a href="customerRegisterPage.php" class="button">Register Here</a>
                   </form>
             </div>
 

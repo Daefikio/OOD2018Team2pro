@@ -26,7 +26,7 @@ Code used to create an agent object which is an instance of the agent class.-->
     array to insertagent() function */
     if(insertcustomer($cust))
     {
-      header("Location: successfulCustomerRegistrationPage.php");
+      header("Location: travelpackages.php");
     }
     else
     {

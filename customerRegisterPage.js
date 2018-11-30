@@ -72,8 +72,7 @@ function validate(mainform)
     return false;
   }
   //Regular expression used to validate postal code input
-  //document.getElementById("message").innerHTML = "";
-  //var message = "";
+  
   mainform.postal.value = mainform.postal.value.toUpperCase();
   var reg = /^[a-z]\d[a-z] ?\d[a-z]\d$/i;
   if (!reg.test(mainform.postal.value))
@@ -84,11 +83,6 @@ function validate(mainform)
     alert("Invalid postal code format. Format: X9X 9X9");
     return false;
   }
-  /*if (message)
-  {
-    document.getElementById("message").innerHTML = message;
-    return false;
-  }*/
 
   if (mainform.elements[13].value == "")
   {
@@ -114,25 +108,6 @@ function checkFilled(mainform)
   }
 }
 
-//Function that resets the form and changes the input field colors back
-/*function resetForm(mainform)
-{
-var yesNo = confirm("Are you sure you want reset?");
-
-if(yesNo)
-{
-  for (var i = 0; i < 12; i++)
-  {
-      mainform.elements[i].style.backgroundColor = "lightblue";
-  }  // return false;
-
-    return true;
-  }
-  else
-  {
-    return false;
-  }
-}*/
 
 function resetForm(mainform)
 {

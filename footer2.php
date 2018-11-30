@@ -1,4 +1,4 @@
-<!--Author: Mitchell (Chad) Dundas Smith, Date: November 22, 2018,
+<!--Author: Eugenia Chiu & Mitchell (Chad) Dundas Smith, Date: November 22, 2018,
 PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 & 2.
 Code for website footer.-->
 

@@ -1,7 +1,6 @@
 <!--Author: Mitchell (Chad) Dundas Smith, Date: November 22, 2018,
 PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&JavaScript).
-Code for customer registration page interface that allows the customer to input
-data for registration.-->
+Code for About Us page-->
 <!DOCTYPE html>
 <html lang="en">
   	<head>
@@ -18,7 +17,6 @@ data for registration.-->
       <?php
         include("navBar2.php");
       ?>
-<!-- Customer Registration form where data is input-->
         <div class="container-fluid con">
           <div class="jumbotron display-1" >
             <h1 class="display-4">About Us</h1>

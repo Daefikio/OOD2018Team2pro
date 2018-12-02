@@ -1,3 +1,7 @@
+<!--Author: Eugenia Chu, Date: November 20, 2018,
+PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&Javascript).
+HTML page for the detailed package demo page.-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,6 +37,8 @@
 <?php include "navBar2.php"; ?>
 
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--Travel Package information-->
 
     <header class="masthead text-center text-white">
       <div class="masthead-content">

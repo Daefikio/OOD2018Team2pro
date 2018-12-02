@@ -1,3 +1,7 @@
+<!--Author: Eugenia Chu, Date: November 20, 2018,
+PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 (HTML&Javascript).
+HTML page for the detailed package demo page.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +16,8 @@
 </head>
 <body>
 <?php include "navBar2.php"; ?>
+
+<!--Carousel Images with 6 second timer-->
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->

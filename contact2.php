@@ -1,68 +1,17 @@
 <!--Author: James Cockriell, Date: November 26, 2018,
 PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 & 2.
 Code for contacts page. Contacts page is split into 2 files; contacts1.php, contacts2.php -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
     <title>Contact 2</title>
-    <style>
-        body{
-        background: #de6161;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        }
-
-        .jumbo{
-            height: 100vh;
-        }
-
-        .jumbotron{
-            background-color: forestgreen;
-            color: white;
-            text-align: center;
-        }
-
-        #padding{
-          margin: 20px 0px 5px 0px;
-        }
-
-        #hero{
-          width:100%;
-          margin: 0px;
-        }
-
-       /*.border{
-           border: 5px white solid;
-           padding:10px 15px;
-           margin: 20px 10px;
-
-       }*/
-    </style>
-</head>
-<body>
-    <?php
-      include(navBar2.php);
-    ?>
-    <!--Author: James Cockriell, Date: November 26, 2018,
-PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 & 2.
-Code for contacts page. Contacts page is split into 2 files; contacts1.php, contacts2.php -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
-    <title>Contact 1</title>
     <style>
         body{
         background: #de6161;  /* fallback for old browsers */
@@ -117,7 +66,7 @@ Code for contacts page. Contacts page is split into 2 files; contacts1.php, cont
 </div>
 
 <?php
-// This querry displays the agents with the AgencyId 2
+// This querry displays the agents with the AgencyId 1
 
 $mysqli = new mysqli("localhost", "chad", "chad", "travelexperts");
 

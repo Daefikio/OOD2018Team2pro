@@ -66,7 +66,7 @@ Code for contacts page. Contacts page is split into 2 files; contacts1.php, cont
 </div>
 
 <?php
-// This querry displays the agents with the AgencyId 1
+// This querry displays the agents with the AgencyId 2
 
 $mysqli = new mysqli("localhost", "chad", "chad", "travelexperts");
 

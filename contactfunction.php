@@ -2,6 +2,9 @@
 PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 2 (Adding extra website functionality).
 Code for message agent form that can be submitted by a customer.-->
 
+
+<!-- This function takes info inputted into the contact us form  on agentDemo1.php page, and inserts it into the
+travel experts database. -->
 <?php
 function insertproject($cust)
 	{

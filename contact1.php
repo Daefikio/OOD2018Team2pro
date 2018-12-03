@@ -1,4 +1,4 @@
-<!--Author: James Cockriell Date: November 26, 2018,
+<!--Author: James Cockriell, Date: November 26, 2018,
 PROJ-207-OSD-Threaded Project for OOSD, Assignment: Project Workshop 1 & 2.
 Code for contacts page. Contacts page is split into 2 files; contacts1.php, contacts2.php -->
 
@@ -11,7 +11,7 @@ Code for contacts page. Contacts page is split into 2 files; contacts1.php, cont
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-    <title>Contact1</title>
+    <title>Contact 1</title>
     <style>
         body{
         background: #de6161;  /* fallback for old browsers */
@@ -66,6 +66,8 @@ Code for contacts page. Contacts page is split into 2 files; contacts1.php, cont
 </div>
 
 <?php
+// This querry displays the agents with the AgencyId 1
+
 $mysqli = new mysqli("localhost", "chad", "chad", "travelexperts");
 
 /* check connection */
